@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeLinkr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1 class="text-blue-950">LIFE</h1>
+            <h1 class="text-blue-400">LINK</h1>
+            <h1 class="text-blue-950">R</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#home-section"><h3>Home</h3></a>
+            <a href="#why-section"><h3>Why Choose Us</h3></h>
+            <a href="#benefits-section"><h3>Benefits</h3></a>
+            <a href="#faqs-section"><h3>FAQs</h3></a>
+            <button class="whatsapp-btn">WhatsApp Us</button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header class="home">
+        <div class="home-content">
+            <h1 class="text-blue-800">TAILORED IVF MANAGEMENT SOFTWARE FOR CLINICS</h1>
+            <p>Your All-in-One Software for Enhanced IVF Clinic Management and Patient Experience</p>
+            <section class="features">
+                <div class="feature-item">
+                    <img src="placeholder.png" alt="In-Built CRM">
+                    <h3>In-Built CRM</h3>
+                </div>
+                <div class="feature-item">
+                    <img src="placeholder.png" alt="In-Built CRM">
+                    <h3>In-Built CRM</h3>
+                </div>
+                <div class="feature-item">
+                    <img src="placeholder.png" alt="In-Built CRM">
+                    <h3>In-Built CRM</h3>
+                </div>
+                <div class="feature-item">
+                    <img src="placeholder.png" alt="In-Built CRM">
+                    <h3>In-Built CRM</h3>
+                </div>
+                <div class="feature-item">
+                    <img src="placeholder.png" alt="In-Built CRM">
+                    <h3>In-Built CRM</h3>
+                </div>
+                <div class="feature-item">
+                    <img src="placeholder.png" alt="In-Built CRM">
+                    <h3>In-Built CRM</h3>
+                </div>
+            </section>
+        </div>
+        <section class="demo-section">
+            <h1>Schedule a Free Demo</h1>
+            <div class="demo-form">
+                <input type="text" placeholder="Clinic Name">
+                <input type="email" placeholder="Company Email">
+                <input type="number" placeholder="Mobile">
+                <input type="text" placeholder="Clinic Location">
+            </div>
+            <div class="terms">
+                <input type="checkbox">
+                <label>I agree and accept <span class="text-amber-300">Terms & Condition</span></label>
+            </div>
+            <button id="schedule-demo" class="demo-btn">Schedule Demo</button>
+        </section>
+    </header>
+
+    <!-- hero section -->
+    <section id="hero-section" class="hero">
+        <div class="card-container">
+          <div class="card">
+            <img class="card-icon" alt="Icon" />
+            <h4 class="card-title">Data Protection</h4>
+            <p class="card-description">Protect Data Leakage With Strict Data Protection</p>
+          </div>
+          <div class="card">
+            <img class="card-icon" alt="Icon" />
+            <h4 class="card-title">Data Protection</h4>
+            <p class="card-description">Protect Data Leakage With Strict Data Protection</p>
+          </div>
+          <div class="card">
+            <img class="card-icon" alt="Icon" />
+            <h4 class="card-title">Data Protection</h4>
+            <p class="card-description">Protect Data Leakage With Strict Data Protection</p>
+          </div>
+          <div class="card">
+            <img class="card-icon" alt="Icon" />
+            <h4 class="card-title">Data Protection</h4>
+            <p class="card-description">Protect Data Leakage With Strict Data Protection</p>
+          </div>
+          <div class="card">
+            <img class="card-icon" alt="Icon" />
+            <h4 class="card-title">Data Protection</h4>
+            <p class="card-description">Protect Data Leakage With Strict Data Protection</p>
+          </div>
+          <div class="card">
+            <img class="card-icon" alt="Icon" />
+            <h4 class="card-title">Data Protection</h4>
+            <p class="card-description">Protect Data Leakage With Strict Data Protection</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- why section -->
+
+      <div id="why-section" class="container">
+        <div class="feature-card">
+          <div class="feature-img">
+            <img src="https://via.placeholder.com/80x80?text=1" alt="Patient Management"/>
+          </div>
+          <div class="feature-content">
+            <div class="feature-title">1. Seamless Patient Management</div>
+            <div class="feature-desc">
+              Effortlessly manage patient records, appointments, communications and history in a centralized, secure platform tailored for IVF clinics, enhancing efficiency.
+              <span class="more-text"> This ensures improved workflows, faster care coordination, and seamless communication across teams.</span>
+              <span class="read-more" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+    
+        <div class="feature-card">
+          <div class="feature-img">
+            <img src="https://via.placeholder.com/80x80?text=2" alt="IVF Cycle Tracking"/>
+          </div>
+          <div class="feature-content">
+            <div class="feature-title">2. Detailed IVF Cycle Tracking</div>
+            <div class="feature-desc">
+              Track each stage of the IVF cycle, from egg retrieval to embryo transfer, with real-time updates and data-driven insights for better outcomes.
+              <span class="more-text"> This allows clinicians to adjust treatment plans on the fly and provide better personalized care.</span>
+              <span class="read-more" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+    
+        <div class="feature-card">
+          <div class="feature-img">
+            <img src="https://via.placeholder.com/80x80?text=3" alt="Billing & Finance Integration"/>
+          </div>
+          <div class="feature-content">
+            <div class="feature-title">3. Automated Billing & Finance Integration</div>
+            <div class="feature-desc">
+              Streamline complex IVF billing processes with automated milestone-based, package billing and insurance management in one easy-to-use system.
+              <span class="more-text"> This reduces manual errors, accelerates reimbursements, and ensures financial transparency.</span>
+              <span class="read-more" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+    
+        <div class="feature-card">
+          <div class="feature-img">
+            <img src="https://via.placeholder.com/80x80?text=4" alt="Lab Management"/>
+          </div>
+          <div class="feature-content">
+            <div class="feature-title">4. Lab Management</div>
+            <div class="feature-desc">
+              Optimize lab operations by tracking embryo development, managing cryostorage and maintaining compliance with laboratory standards.
+              <span class="more-text"> All while improving lab efficiency, accuracy of records, and minimizing regulatory risk.</span>
+              <span class="read-more" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- benefits section -->
+
+      <div id="benefits-section" class="benefits-container">
+        <div class="content-box">
+          <h1 class="section-title">Benefits You Will Gain</h1>
+          <div class="benefits-grid">
+            <div class="benefit-card">
+              <div class="benefit-img"></div>
+              <h4 class="benefit-text">Optimize <span class="highlight">Operations</span></h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-img"></div>
+              <h4 class="benefit-text">Leverage CRM for <span class="highlight">Patient<br>Growth</span></h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-img"></div>
+              <h4 class="benefit-text">Simplify <span class="highlight">Financial Processes</span></h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-img"></div>
+              <h4 class="benefit-text">Enhanced <span class="highlight">Data Security</span></h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-img"></div>
+              <h4 class="benefit-text">Simplify <span class="highlight">Financial Processes</span></h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-img"></div>
+              <h4 class="benefit-text">Forever <span class="highlight">Medical Records</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- faqs section -->
+
+      <div id="faqs-section" class="faq-container">
+        <h2 class="faq-title">FAQs</h2>
+        <img src="faq-image.jpg" alt="FAQ Illustration" class="faq-image">
+    
+        <div class="accordion-container" id="faqAccordion">
+          <div class="accordion-item">
+            <button class="accordion-header">What features does LifeLinkr software include for clinics?</button>
+            <div class="accordion-body">
+              LifeLinkr includes patient management, appointment scheduling, billing, EHR, and customizable dashboards to streamline clinic operations.
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <button class="accordion-header">Is LifeLinkr software suitable for individual doctors?</button>
+            <div class="accordion-body">
+              Yes, LifeLinkr is designed for both individual doctors and large clinics with scalable features.
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <button class="accordion-header">How secure is patient data in LifeLinkr software?</button>
+            <div class="accordion-body">
+              LifeLinkr uses end-to-end encryption and follows HIPAA compliance to ensure data safety and privacy.
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <button class="accordion-header">Can I customize the LifeLinkr dashboard style?</button>
+            <div class="accordion-body">
+              Yes, the dashboard can be tailored to fit the needs of your clinic, including themes and widgets.
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <button class="accordion-header">What are the pricing plans for LifeLinkr?</button>
+            <div class="accordion-body">
+              LifeLinkr offers flexible pricing based on clinic size and features required. Contact us for a personalized quote.
+            </div>
+          </div>
+        </div>
+    
+        <button class="load-more" onclick="loadMore()">Load More</button>
+      </div>
+    
+<!-- form demo section -->
+
+<section class="form-section">
+    <h1 class="form-title">Schedule a Free Demo</h1>
+    <h3 class="form-subtitle">
+      Experience Seamless
+      <span class="highlight">Healthcare Management</span><br> with LifeLinker
+    </h3>
+
+    <div class="form-grid">
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email Address">
+      <input type="number" placeholder="Phone Number">
+      <input type="number" placeholder="WhatsApp Number">
+      <input type="text" placeholder="Clinic Name">
+      <input type="text" placeholder="Country">
+      <input type="text" placeholder="City">
+      <input type="number" placeholder="No. of Users">
+      <input type="text" class="wide-input" placeholder="Currently Using Any Software?">
+      <textarea class="wide-input" rows="4" placeholder="Message"></textarea>
+    </div>
+
+    <div class="checkbox-wrapper">
+      <input type="checkbox" id="agree">
+      <label for="agree" class="checkbox-label">
+        I agree and accept <span class="terms">Terms & Conditions</span>
+      </label>
+    </div>
+
+    <button class="submit-btn">Schedule Demo</button>
+  </section>
+
+  <!-- managing section -->
+
+    <section class="art-section">
+      <h1>Managing ART Made Hassle Free</h1>
+      <div class="art-content">
+        <div class="art-image">
+          <img src="art-dashboard.png" alt="ART dashboard" />
+        </div>
+        <div class="art-details">
+          <ul>
+            <li>Comprehensive and secure platform for managing IVF and reproductive health information.</li>
+            <li>Centralizes patient data, lab records, treatment cycles, and financial information.</li>
+            <li>
+              <span id="readText">
+                Designed specifically for fertility clinics, making critical information easily accessible.
+              </span>
+              <span id="moreText" class="hidden">
+                This platform offers real-time tracking, patient data visualization, and user-friendly tools to improve clinic efficiency and patient outcomes.
+              </span>
+              <a id="readMoreBtn" href="javascript:void(0);">Read More.</a>
+            </li>
+          </ul>
+          <a href="#schedule-demo"><button id="demoBtn">Schedule Demo <span>&rarr;</span></button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="art-section">
+      <h1>Managing ART Made Hassle Free</h1>
+      <div class="art-content">
+        <div class="art-details">
+          <ul>
+            <li>Comprehensive and secure platform for managing IVF and reproductive health information.</li>
+            <li>Centralizes patient data, lab records, treatment cycles, and financial information.</li>
+            <li>
+              <span id="readText">
+                Designed specifically for fertility clinics, making critical information easily accessible.
+              </span>
+              <span id="moreText" class="hidden">
+                This platform offers real-time tracking, patient data visualization, and user-friendly tools to improve clinic efficiency and patient outcomes.
+              </span>
+              <a id="readMoreBtn" href="javascript:void(0);">Read More.</a>
+            </li>
+          </ul>
+          <a href="#schedule-demo"><button id="demoBtn">Schedule Demo <span>&rarr;</span></button></a>
+        </div>
+        <div class="art-image">
+            <img src="art-dashboard.png" alt="ART dashboard" />
+          </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <h1 class="text-blue-dark">LIFE</h1>
+            <h1 class="text-blue-light">LINK</h1>
+            <h1 class="text-blue-dark">R</h1>
+          </div>
+          <p>All Rights Reserved 2023-24 &copy; Copyright - LifeLinkr</p>
+          <p class="footer-policy">
+            Privacy Policy | Ads Policy | Data Privacy | Disclaimer | User Agreement | Intellectual Property Rights | Cookie Policy | Refund Policy | Contact Information | Accessibility Statement | Security Policy | GDPR Compliance
+          </p>
+        </div>
+        <div class="footer-right">
+          <h3>SCHEDULE YOUR DEMO</h3>
+          <input type="number" placeholder="Enter Your Phone Number" class="phone-input" />
+          <button id="bookBtn">Book Appointment</button>
+        </div>
+      </footer>
+
+
+    <!-- Why Choose Us Section
+    <section class="why-choose-us">
+        <h1 class="text-blue-900">Why Choose Us?</h1>
+        <div class="features-list">
+            <div class="feature">
+                <img src="patient-management.png" alt="Seamless Patient Management">
+                <div>
+                    <h3 class="text-blue-700">1. Seamless Patient Management</h3>
+                    <p class="text-gray-600">Effortlessly manage patient records, appointments, communications and history in a centralized, secure platform tailored for IVF clinics, enhancing efficiency <a class="text-blue-500">Read More.</a></p>
+                </div>
+            </div>
+            Repeat for other features
+        </div>
+    </section> -->
+
+    <!-- Benefits Section -->
+    <!-- <section class="benefits">
+        <h1 class="text-blue-900">Benefits You Will Gain</h1>
+        <div class="benefits-list">
+            <div class="benefit">
+                <img src="placeholder.png" alt="Optimize Operations">
+                <h4>Optimize <span class="text-blue-700">Operations</span></h4>
+            </div>
+            Repeat for other benefits
+        </div>
+    </section> -->
+
+    <!-- FAQs Section -->
+    <!-- <section class="faq">
+        <h2 class="text-blue-700">FAQs</h2>
+        <img src="faq-cover.png" alt="FAQs">
+        <div class="faq-list">
+            <div class="faq-item">
+                <button class="faq-question">What features does LifeLinkr software include for clinics?</button>
+                <p class="faq-answer">LifeLinkr includes patient management, appointment scheduling, billing, EHR, and customizable dashboards to streamline clinic operations.</p>
+            </div>
+            Repeat for other FAQs
+        </div>
+        <button class="load-more">Load More</button>
+    </section> -->
+
+    <!-- Footer Section -->
+    <!-- <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <h1 class="text-blue-950">LIFE</h1>
+                <h1 class="text-blue-400">LINK</h1>
+                <h1 class="text-blue-950">R</h1>
+            </div>
+            <p>All Rights Reserved 2023-24 &copy; Copyright - LifeLinkr|</p>
+            <p class="text-blue-600">Privacy Policy | Ads Policy|Data Privacy | Disclaimer | User Agreement | Intellectual Property Rights | Cookie|Policy | Refund Policy | Contact Information | Accessibility Statement | Security Polciy | GDPR Compliance </p>
+        </div>
+        <div class="footer-demo">
+            <h3>SCHEDULE YOUR DEMO</h3>
+            <input type="number" placeholder="Enter Your Phone Number">
+            <button class="book-appointment">Book Appointment</button>
+        </div>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
