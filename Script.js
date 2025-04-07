@@ -1,3 +1,9 @@
+// for navbar 
+function toggleMenu() {
+  const nav = document.getElementById('navLinks');
+  nav.classList.toggle('active');
+}
+
 // for why section
 function toggleText(element) {
     const moreText = element.previousElementSibling;
