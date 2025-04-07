@@ -1,0 +1,108 @@
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 20px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .home {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .home-content,
+    .demo-section {
+      width: 100%;
+    }
+  
+    .demo-section {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .demo-form {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    .demo-form input {
+      width: 80%;
+    }
+  
+    .hero {
+      flex-direction: column;
+      padding: 2rem 1rem;
+    }
+  
+    .container,
+    .faq-container,
+    .form-section,
+    .art-section {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .benefits-container {
+      padding: 20px;
+    }
+  
+    .content-box {
+      width: 100%;
+    }
+  
+    .benefit-card {
+      width: 100%;
+    }
+  
+    .benefit-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .art-content {
+      flex-direction: column;
+    }
+  
+    .art-details {
+      width: 100%;
+    }
+  
+    .art-image img {
+      width: 100%;
+    }
+  
+    .footer {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .footer-left,
+    .footer-right {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .form-grid input,
+    .form-grid .wide-input {
+      width: 90%;
+    }
+  
+    .checkbox-wrapper {
+      margin-left: 0;
+      justify-content: center;
+    }
+  
+    .submit-btn {
+      width: 80%;
+    }
+  }
+  
