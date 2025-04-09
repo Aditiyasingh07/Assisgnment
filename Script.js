@@ -50,6 +50,19 @@ document.getElementById("readMoreBtn").addEventListener("click", function () {
       btn.textContent = "Read More.";
     }
   });
+
+document.getElementById("readMoreBtnOne").addEventListener("click", function () {
+    const moreText = document.getElementById("moreTextOne");
+    const btn = document.getElementById("readMoreBtnOne");
+  
+    if (moreText.classList.contains("hidden")) {
+      moreText.classList.remove("hidden");
+      btn.textContent = "Read Less.";
+    } else {
+      moreText.classList.add("hidden");
+      btn.textContent = "Read More.";
+    }
+  });
   
   
 
