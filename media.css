@@ -1,4 +1,12 @@
-
+html{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .menu-icon {
     display: block;
     /* font-size: 4rem; */
@@ -18,7 +26,6 @@
   }
   .logo {
     display: flex;
-    /* font-size: 2rem; */
 }
 
   .nav-links.active {
@@ -26,10 +33,12 @@
   }
   
   .navbar {
+  width: 100%;
   position: relative;
   flex-direction: row;
   align-items: center;
-  padding: 10px 50px;
+  margin: 0;
+  padding: 10px 10px;
 }
 
 .nav-links {
@@ -39,24 +48,20 @@
   margin-top: 10px;
 }
 
-.home {
-  flex-direction: column;
-  padding: 20px;
-}
 .features{
-    width: 60%;
+    width: 100%;
     margin: auto auto;
     justify-content: center;
     display: flex;
 }
 
 .home-content .text-blue-800{
-    /* font-size: 5rem; */
-    margin-top: 10px;
+    width: 100%;
+    margin-top: -30px;
+    font-size: 2rem;
     text-align: center;
 }
 .home-content p{
-    /* font-size: 1.5rem; */
     margin-top: 10px;
     text-align: center;
 }
@@ -67,12 +72,11 @@
 
 .demo-section {
   height: auto;
-  width: 70%;
+  width: 100%;
   margin: auto auto;
   text-align: center;
-  padding: 10px;
-  border-radius: 30px;
-  margin-top: 10px;
+  padding: 30px 0;
+  border-radius: 20px;
 }
 
 .demo-form {
@@ -81,19 +85,30 @@
   height: auto;
 }
 .terms{
-    width:50%;
+    width:85%;
+    margin-left: 250px;
 }
 
 .demo-form input {
   width: 80%;
 }
 
+.hero{
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
 .home {
   display: flex;
+  flex-direction: column;
   gap: 20px;
-  padding: 20px 50px;
+  padding: 20px 0;
   padding-top: 50px;
-  background-color: #e5e7eb;
 }
 
 .feature-card{
@@ -124,13 +139,20 @@
 }
 
 .benefit-img {
+  width: 200px;
+  height: 200px;
+}
+.form-section {
   width: 100%;
-  height: auto;
+  padding: 20px;
+  margin: auto auto;
+  text-align: center;
 }
 
 .art-section{
     height: auto;
 }
+
 .art-content {
   flex-direction: column;
 }
@@ -146,6 +168,11 @@
 .footer {
   flex-direction: column;
   padding: 20px;
+}
+
+.footer-policy{
+  text-align: center;
+  width: 100%;
 }
 
 .footer-left,
